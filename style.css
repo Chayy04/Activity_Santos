@@ -7,25 +7,38 @@ body{
     font-family: Arial;
     background-color: white;
     padding: 20px;
-    margin-top: 10%;
+    padding-bottom: 40px;
+    margin-top: 12%;
     margin-bottom: 10%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 23%;
+    margin-right: 23%;
     text-align: center;
-}
+    box-shadow:  0 0 10px  rgba(0,0,0,0.2);
 
-h1{
-    font-family: 'Gasalt-black';
 }
 
 .name{
+    font-family: 'Gasalt-black';
     text-transform: uppercase;
+    font-weight: 600;
+    font-size: 35px;
+
 }
 
 .profile{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
+}
+.bio{
+
+	text-align: center;
+	padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+	font-family: Arial;
+	font-size: 15px;
+	margin-bottom: 70px;
 }
 
 .fb_link{
@@ -35,27 +48,25 @@ h1{
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 20px;
-    color: cornflowerblue;
+    color: dodgerblue;
     text-decoration: none;
+    margin-bottom: 50px;    
 }
 
 .fb_link:hover{
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: cornflowerblue;
-    margin: 100px;
+    background-color:dodgerblue;
     color: white;
     border-radius: 30px;
+    margin-bottom: 50px;    
 }
 
 .facebook_icon{
-    height: 20px;
+    width: 20px;
 }
 
 @font-face{
     font-family: 'Gasalt-black';
-    src: url(/fonts/Gasalt-Black.ttf);
+    src: url(/fonts/Gasalt-Regular.ttf);
 }
+
